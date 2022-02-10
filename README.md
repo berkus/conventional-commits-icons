@@ -14,11 +14,13 @@
 |   `chore`   | Chores                   | Other changes that don't modify src or test files                                                           |  ♻️   | -                              |        `true`        |
 |  `revert`   | Reverts                  | Reverts a previous commit                                                                                   |  🗑   | -                              |        `true`        |
 
+Convention to format the message is: `feat(scope): ✨ Message` and so on.
+
 ## Commit aliases
 
-Aliases allow to have additional commit types (in a tool like [commitizen](https://github.com/commitizen/cz-cli) for example) that can be formatted to follow [AngularJS Commit Message Conventions](https://docs.google.com/document/d/1QrDFcIiPjSLDn3EL15IJygNPiHORgU1_OOAqWjiDU5Y/edit).
+Aliases allow to have additional commit types (in a tool like [commitizen](https://github.com/commitizen/cz-cli)) that can be formatted to follow regular conv commit style.
 
-For example the [commitizen](https://github.com/commitizen/cz-cli) CLI can present the choice `initial` and the final commit message will be 'feat: Initial commit 🎉'
+For example the commit CLI could present the choice `initial` and the final commit message will be 'feat: 🎉 Initial commit'
 
 | Commit Type        | Maps to | Title             | Description                     | Emoji  |
 |:------------------:| ------- | ----------------- | ------------------------------  |:------:|
